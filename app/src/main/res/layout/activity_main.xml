@@ -12,13 +12,22 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
-   <!-- <TextView
-        android:id="@+id/tv_1"
-        android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/sign_in_button"
-        android:background="#00ffff"
-        android:textColor="#000"
-        android:textSize="20sp"
-        android:layout_height="wrap_content" />-->
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- <TextView
+         android:id="@+id/tv_1"
+         android:layout_width="match_parent"
+         android:layout_marginTop="30dp"
+         android:layout_below="@+id/sign_in_button"
+         android:background="#00ffff"
+         android:textColor="#000"
+         android:textSize="20sp"
+         android:layout_height="wrap_content" />-->
 </RelativeLayout>

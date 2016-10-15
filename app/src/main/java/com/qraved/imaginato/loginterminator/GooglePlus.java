@@ -20,7 +20,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import static com.qraved.imaginato.loginterminator.MainActivity.REQUEST_CODE_GOOGLE_PLUS;
 
-/**sign in with GooglePlus
+/**login in with GooglePlus
  * Created by robin on 2016/10/14.
  */
 
