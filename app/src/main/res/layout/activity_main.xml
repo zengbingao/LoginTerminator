@@ -7,7 +7,7 @@
     tools:context="com.qraved.imaginato.loginterminator.MainActivity">
 
     <com.google.android.gms.common.SignInButton
-        android:id = "@+id/sign_in_button"
+        android:id="@+id/sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -18,16 +18,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/sign_in_button"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
 
-    <!-- <TextView
-         android:id="@+id/tv_1"
-         android:layout_width="match_parent"
-         android:layout_marginTop="30dp"
-         android:layout_below="@+id/sign_in_button"
-         android:background="#00ffff"
-         android:textColor="#000"
-         android:textSize="20sp"
-         android:layout_height="wrap_content" />-->
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twitter_login_button"
+        android:layout_marginTop="10dp"
+        android:background="#00ffff"
+        android:gravity="center"
+        android:text="test custom twitter"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/twitter_login_button"
+        android:layout_alignStart="@+id/twitter_login_button"
+        android:layout_alignRight="@+id/twitter_login_button"
+        android:layout_alignEnd="@+id/twitter_login_button" />
 </RelativeLayout>

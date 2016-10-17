@@ -84,6 +84,7 @@ class GooglePlus {
     static void handleSignInResult(Intent data) {
         Log.i("robin", "handleSignInResult执行了");
         GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+        if (result==null)return;
         if (result.isSuccess()) {
             Log.i("robin", "handleSignInResult-->success");
             GoogleSignInAccount acct = result.getSignInAccount();

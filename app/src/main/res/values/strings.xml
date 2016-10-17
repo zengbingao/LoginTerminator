@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LoginTerminator</string>
+    <string name="twitter_key">SjHncAgu59RnbIR6YJKkdybtt</string>
+    <string name="twitter_secret">fdRiluKfjZgoVNQRCKAEJiyqzOxqUpXQIDgHu6CFCsVZbtV7by</string>
 </resources>
