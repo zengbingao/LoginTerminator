@@ -22,7 +22,7 @@ android {
     buildToolsVersion "24.0.0"
     defaultConfig {
         applicationId "com.qraved.imaginato.loginterminator"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -47,4 +47,5 @@ dependencies {
     compile('com.twitter.sdk.android:twitter:2.1.1@aar') {
         transitive = true;
     }
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
 }

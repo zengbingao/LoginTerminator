@@ -7,7 +7,7 @@
     tools:context="com.qraved.imaginato.loginterminator.MainActivity">
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
+        android:id = "@+id/sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -36,4 +36,11 @@
         android:layout_alignStart="@+id/twitter_login_button"
         android:layout_alignRight="@+id/twitter_login_button"
         android:layout_alignEnd="@+id/twitter_login_button" />
+    <ImageView
+        android:id="@+id/iv_facebook_login"
+        android:layout_below="@id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/facebook_icon"
+        />
 </RelativeLayout>
