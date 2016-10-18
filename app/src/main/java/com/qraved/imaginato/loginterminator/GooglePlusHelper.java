@@ -20,11 +20,11 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import static com.qraved.imaginato.loginterminator.MainActivity.REQUEST_CODE_GOOGLE_PLUS;
 
-/**login in with GooglePlus
+/**login in with GooglePlusHelper
  * Created by robin on 2016/10/14.
  */
 
-class GooglePlus {
+class GooglePlusHelper {
     private static MainActivity mainActivity;
     private static GoogleApiClient mGoogleApiClient;
 

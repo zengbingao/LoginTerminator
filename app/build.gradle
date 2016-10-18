@@ -43,7 +43,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.1.1'
     testCompile 'junit:junit:4.12'
-    compile 'com.google.android.gms:play-services-auth:9.2.1'
+    compile 'com.google.android.gms:play-services-auth:9.6.1'
     compile('com.twitter.sdk.android:twitter:2.1.1@aar') {
         transitive = true;
     }

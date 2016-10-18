@@ -30,7 +30,7 @@ import java.net.URLEncoder;
 /**
  * Created by Alex on 2016/8/16.
  */
-public class AlxFacebookHelper {
+public class FacebookHelper {
     public CallbackManager facebookCallbackManager;
 
 

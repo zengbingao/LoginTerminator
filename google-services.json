@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042198206920",
+    "project_id": "even-ally-143406"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042198206920:android:b6043dba41532b99",
+        "android_client_info": {
+          "package_name": "com.example.administrator.googleplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042198206920-tmmub5ld0d4uqd1vbqcnulf588t3mpmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.googleplus",
+            "certificate_hash": "B3B7C9A6F76A74C55C557174C3726298B025C159"
+          }
+        },
+        {
+          "client_id": "1042198206920-rm03sb61tdraji5p8jc2fqlp2jbku36k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWU3XGMqdZCrII7yM7nB5V2LGqVLW5ib4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
