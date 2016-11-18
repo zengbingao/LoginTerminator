@@ -1,35 +1,62 @@
 {
   "project_info": {
-    "project_number": "1042198206920",
-    "project_id": "even-ally-143406"
+    "project_number": "817299131874",
+    "project_id": "loginterminater"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1042198206920:android:b6043dba41532b99",
+        "mobilesdk_app_id": "1:817299131874:android:27d689d63f1b7a06",
         "android_client_info": {
-          "package_name": "com.example.administrator.googleplus"
+          "package_name": "com.google.samples.quickstart.signin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1042198206920-tmmub5ld0d4uqd1vbqcnulf588t3mpmp.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.administrator.googleplus",
-            "certificate_hash": "B3B7C9A6F76A74C55C557174C3726298B025C159"
-          }
-        },
-        {
-          "client_id": "1042198206920-rm03sb61tdraji5p8jc2fqlp2jbku36k.apps.googleusercontent.com",
+          "client_id": "817299131874-1l0ak249rd7scvln1g5gg0oltdpdb53n.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
-      "api_key": [
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817299131874:android:51dca97ea6a05744",
+        "android_client_info": {
+          "package_name": "com.qraved.imaginato.loginterminator"
+        }
+      },
+      "oauth_client": [
         {
-          "current_key": "AIzaSyDWU3XGMqdZCrII7yM7nB5V2LGqVLW5ib4"
+          "client_id": "817299131874-50qk1bashffv04h5omq4a90v7r2ptj09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qraved.imaginato.loginterminator",
+            "certificate_hash": "74A412C2B969F6CE74E1E1B2D13938310AD17A8F"
+          }
+        },
+        {
+          "client_id": "817299131874-f8a0vo4ik88rd5lbgpjt51h77uvlqeaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qraved.imaginato.loginterminator",
+            "certificate_hash": "2541E30E04AC02DC041CD573FBD1B69E99850C97"
+          }
         }
       ],
+      "api_key": [],
       "services": {
         "analytics_service": {
           "status": 1

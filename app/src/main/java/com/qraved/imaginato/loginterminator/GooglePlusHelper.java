@@ -34,7 +34,7 @@ class GooglePlusHelper {
                 .Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
                 .requestId()
-                //.requestIdToken(); need server token to set 
+               // .requestIdToken("817299131874-f8a0vo4ik88rd5lbgpjt51h77uvlqeaq.apps.googleusercontent.com") //这个key是你的google console的OAuth 2.0里面的客户端ID。没有的话就创建，这个也是根据key的类型来区分的。
                 .build();
 
         mGoogleApiClient = new GoogleApiClient
